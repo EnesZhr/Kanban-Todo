@@ -1,0 +1,101 @@
+.card-info {
+  padding: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 600px;
+}
+
+.card-info_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-info_box_title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-info_box_body {
+  width: fit-content;
+}
+
+.card-info_box_body input {
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.card-info_box_colors {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.card-info_box_colors li {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  list-style: none;
+  border: 3px solid transparent;
+  transition: 200ms;
+}
+
+.card-info_box_colors .active {
+  border: 3px solid yellow;
+}
+
+.card-info_box_progress_bar {
+  height: 10px;
+  border-radius: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.card-info_box_progress {
+  height: 10px;
+  border-radius: 20px;
+  background-color: #1379ec;
+}
+
+.card-info_box_progress_active {
+  background-color: limegreen;
+}
+
+.card-info_box_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-info_task {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.card-info_task input,
+.card-info_task svg {
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+}
+
+.card-info_task p {
+  flex: 1;
+  line-height: 20px;
+}
+
+.card-info_box_labels {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
